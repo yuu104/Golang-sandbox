@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func calculation() {
 	x := 10
 	y := 2
 

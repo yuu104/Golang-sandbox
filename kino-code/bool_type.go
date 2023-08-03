@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main() {
+func boolType() {
 	a := 10
 	b := 1
 	var num_bool bool = a > b

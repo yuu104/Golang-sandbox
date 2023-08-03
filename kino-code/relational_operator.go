@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func relationalOperator() {
 	x := 10
 	y := 2
 	z := 10

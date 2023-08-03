@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main() {
+func stringType() {
 	var string_a string = "Hello, World!"
 	string_b := "Hello, World!"
 

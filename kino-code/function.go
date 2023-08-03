@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func function() {
 	fmt.Println(cal(10, 5))
 }
 

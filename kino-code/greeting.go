@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func Greeting() {
 	fmt.Println("Good evening")
 	fmt.Println("Good afternoon")
 	fmt.Println("Good morning")

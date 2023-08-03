@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func compositeAssignmentOperator() {
 	// 変数xに10を加えて、その結果をxに代入
 	x := 5
 	x += 10

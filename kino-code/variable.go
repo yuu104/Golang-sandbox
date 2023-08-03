@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func variable() {
 	var num int = 1
 	num01 := 2
 	num_01 := 3

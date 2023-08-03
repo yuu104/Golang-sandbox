@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func arrayType() {
 	a := [3]string{"sato", "suzuki", "takahashi"}
 
 	fmt.Println(a)

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func ConditionalBranch() {
 	x := 7
 	y := 12
 

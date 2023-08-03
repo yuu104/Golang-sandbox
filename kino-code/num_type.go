@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main() {
+func numType() {
 	num01 := 123
 	var num02 int = 1234567890
 	num03 := 1.23
