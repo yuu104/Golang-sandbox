@@ -15,5 +15,12 @@ func main() {
 	// sliceAreLikeReferencesToArrays()
 	// sliceLiterals()
 	// sliceDefaults()
-	sliceLengthCapacity()
+	//sliceLengthCapacity()
+	// nilSlice()
+	// creatingASliceWithMake()
+	// sliceOfSlice()
+	// appendingToASlice()
+	// rangeSample()
+	// mapSample()
+	mutatingMap()
 }
