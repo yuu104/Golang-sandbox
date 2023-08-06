@@ -22,5 +22,10 @@ func main() {
 	// appendingToASlice()
 	// rangeSample()
 	// mapSample()
-	mutatingMap()
+	// mutatingMap()
+	// execiseMap()
+	// fucntionValues()
+	// functionClosure()
+	// execiseFibonacciClosure()
+	method()
 }
