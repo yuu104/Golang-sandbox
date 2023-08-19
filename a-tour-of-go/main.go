@@ -27,5 +27,9 @@ func main() {
 	// fucntionValues()
 	// functionClosure()
 	// execiseFibonacciClosure()
-	method()
+	// method()
+	// methodsContinued()
+	// pointerRecivers()
+	// methodsAndPointerIndirection()
+	methodsAndPointerIndirection2()
 }
