@@ -31,5 +31,8 @@ func main() {
 	// methodsContinued()
 	// pointerRecivers()
 	// methodsAndPointerIndirection()
-	methodsAndPointerIndirection2()
+	// methodsAndPointerIndirection2()
+	// interfaces()
+	// interfaceValues()
+	interfaceValuesWithNilUnderlyigValues()
 }
