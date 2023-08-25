@@ -1,10 +1,6 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("main.go")
-
 	// pointers()
 	// structs()
 	// structFields()
@@ -34,5 +30,9 @@ func main() {
 	// methodsAndPointerIndirection2()
 	// interfaces()
 	// interfaceValues()
-	interfaceValuesWithNilUnderlyigValues()
+	// interfaceValuesWithNilUnderlyigValues()
+	// nilInterfaceValues()
+	// typeAssertions()
+	// typeSwitches()
+	exerciseStringer()
 }

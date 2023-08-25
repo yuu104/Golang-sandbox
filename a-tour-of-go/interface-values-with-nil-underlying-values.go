@@ -26,10 +26,10 @@ func interfaceValuesWithNilUnderlyigValues() {
 
 	var t *T3
 	i = t
-	describe2(i) // (<nil>, *main.T)
+	describe2(i) // (<nil>, *main.T3)
 	i.M() // <nil>
 
 	i = &T3{"hello"}
-	describe2(i) // (&{hello}, *main.T)
+	describe2(i) // (&{hello}, *main.T3)
 	i.M() // hello
 }
