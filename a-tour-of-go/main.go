@@ -34,5 +34,10 @@ func main() {
 	// nilInterfaceValues()
 	// typeAssertions()
 	// typeSwitches()
-	exerciseStringer()
+	// exerciseStringer()
+	// errors()
+	// reader()
+	//exerciseReaders()
+	exerciseRotReader()
+	// sample.Sample()
 }
