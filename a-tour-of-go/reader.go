@@ -3,26 +3,42 @@ package main
 import (
 	"fmt"
 	"io"
-	"strings"
 )
 
-func reader2() {
-	r := strings.NewReader("Hello, Reader!")
-
-	b := make([]byte, 8)
-	for {
-		n, err := r.Read(b)
-		fmt.Printf("n = %v err = %v len(b) = %v\n", n, err, len(b))
-		fmt.Printf("b[:n] = %q\n", b[:n])
-		if err == io.EOF {
-			break
-		}
-	}
+type StringReader struct {
+	data string
+	pos  int
 }
 
-// n = 8 err = <nil> len(b) = 8
-// b[:n] = Hello, R
-// n = 6 err = <nil> len(b) = 8
-// b[:n] = eader!
-// n = 0 err = EOF len(b) = 8
-// b[:n] = 
+func (r *StringReader) Read(p []byte) (n int, err error) {
+	if r.pos >= len(r.data) {
+		return 0, io.EOF
+	}
+	n = copy(p, r.data[r.pos:])
+	r.pos += n
+	return n, nil
+}
+
+func NewStringReader(s string) *StringReader {
+	return &StringReader{data: s}
+}
+
+func reader2() {
+	// reader := NewStringReader("Hello, World!")
+	// buffer := make([]byte, 6)
+
+	// for {
+	// 	n, err := reader.Read(buffer)
+	// 	if err == io.EOF {
+	// 		break
+	// 	}
+	// 	fmt.Printf("Read %d bytes: %s\n", n, buffer[:n])
+	// 	fmt.Println(string(buffer))
+	// }
+	arr := []int{1, 2, 3}
+	arr2 := make([]int, 6)
+	copy(arr2, arr)
+	fmt.Println(arr2)
+	copy(arr2, []int{3, 2, 1})
+	fmt.Println(arr2)
+}

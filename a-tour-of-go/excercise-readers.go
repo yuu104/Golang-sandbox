@@ -6,7 +6,7 @@ type MyReader struct{}
 
 func (r MyReader) Read(p []byte) (int, error) {
 	for i := range p {
-		p[i] = 'A';
+		p[i] = 'A'
 	}
 	return len(p), nil
 }

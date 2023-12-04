@@ -36,8 +36,9 @@ func main() {
 	// typeSwitches()
 	// exerciseStringer()
 	// errors()
-	// reader()
-	//exerciseReaders()
-	exerciseRotReader()
+	// exerciseReaders()
+	// exerciseRotReader()
+	// exerciseEroors()
+	reader2()
 	// sample.Sample()
 }
